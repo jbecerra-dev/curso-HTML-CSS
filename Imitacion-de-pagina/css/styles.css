@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  background: #fff;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1900px;
+  margin: auto;
+}
+
+header {
+  background-image: url(../img/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 700px;
+}
+header .menu-bar {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+header .menu-bar .menu {
+  padding: 20px;
+  margin-top: 25px;
+}
+header .menu-bar .menu a {
+  text-decoration: none;
+  padding: 10px;
+  color: #904af2;
+}
+header .menu-bar .menu a:hover {
+  text-decoration: underline;
+}
+header .contenedor-texto {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .contenedor-texto .texto-titulo {
+  align-self: center;
+  width: 30%;
+  padding: 20px;
+  margin-right: 100px;
+}
+header .contenedor-texto .texto-titulo .titulo-1 {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 4.5rem;
+  margin-bottom: 15px;
+}
+header .contenedor-texto .texto-titulo .divisor {
+  background: #fff;
+  height: 7px;
+  margin: 15px 0;
+}
+
+.main .botones-servicios {
+  display: flex;
+  background: #252525;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.main .botones-servicios .servicio {
+  padding: 20px;
+  margin: -70px 15px 60px;
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  justify-self: center;
+}
+.main .botones-servicios .servicio .ico-servicio {
+  width: 100px;
+  height: 100px;
+}
+.main .botones-servicios .servicio a {
+  display: inline-block;
+  font-size: 75px;
+  background: #904af2;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.main .botones-servicios .servicio .descripcion {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.main .acerca-de {
+  display: flex;
+  background: #F24B8B;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.main .acerca-de .contenedor-acerca {
+  width: 400px;
+  padding: 50px;
+  margin: 50px 0px;
+  color: #fff;
+}
+.main .acerca-de .contenedor-acerca .titulo-2 {
+  font-weight: 300;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.main .acerca-de .contenedor-acerca .texto1 {
+  margin-top: 10px;
+  font-size: 3em;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+}
+.main .servicio1 {
+  display: flex;
+  background: #252525;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.main .servicio1 .img-servicio1 {
+  margin: 50px 0px;
+  vertical-align: top;
+}
+.main .servicio1 .img-servicio1 img {
+  padding: 20px;
+}
+.main .servicio1 .caja-servicio1 {
+  margin: 150px 0px;
+  margin-left: -150px;
+  padding: 45px;
+  background: #F24B8B;
+  color: #fff;
+  width: 33%;
+}
+.main .servicio1 .caja-servicio1 .titulo2 {
+  font-size: 2.7em;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.main .servicio1 .caja-servicio1 .divisor-servicio {
+  width: 30%;
+  background: #fff;
+  height: 3px;
+  margin: 15px 0;
+}
+.main .servicio2 {
+  background-image: url(../img/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 700px;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .servicio2 .texto-titulo {
+  align-self: center;
+  width: 30%;
+  padding: 20px;
+  margin-right: 100px;
+}
+.main .servicio2 .texto-titulo .titulo-1 {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 4.5rem;
+  margin-bottom: 15px;
+}
+.main .servicio2 .texto-titulo .divisor {
+  background: #fff;
+  height: 7px;
+  margin: 15px 0;
+}
+
+.texto {
+  font-size: 1.1em;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.boton-grande {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 1.1em;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+  background: none;
+  border-radius: 35px;
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.boton-grande:hover {
+  color: #d4d3d3;
+  border: solid 2px #d4d3d3;
+}/*# sourceMappingURL=styles.css.map */
